@@ -1,16 +1,123 @@
 <!DOCTYPE html>
 
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment 3</title>
+    <style>
+        body {
+            text-align: center; /* Center-align the heading */
+        }
+        table {
+            border: 1px solid black;
+            border-spacing: 1px;
+            padding: 1px;
+            margin: 20px auto; /* Center the table */
+            width: 80%; /* Make the table take up 80% of the width */
+        }
+        .middle {
+            width: 100%; /* Table with class "middle" */
+        }
+        .green {
+            background-color: green;
+            color: white; /* White text for contrast */
+        }
+        .blue {
+            background-color: blue;
+            color: white; /* White text for contrast */
+        }
+        .center {
+            text-align: center;
+        }
+        .right {
+            text-align: right;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <h1>HTML Assignment #3</h1>
+
+    <!-- Table 1 -->
+    <table id="table-1" class="middle">
+        <tr>
+            <td id="t11">Cell 1</td>
+            <td id="t12" class="center">Cell 2</td>
+            <td id="t13" class="right">Cell 3</td>
+        </tr>
+        <tr>
+            <td id="t21">Cell 4</td>
+            <td id="t22" class="center">Cell 5</td>
+            <td id="t23" class="right">Cell 6</td>
+        </tr>
+        <tr>
+            <td id="t31">Cell 7</td>
+            <td id="t32" class="center">Cell 8</td>
+            <td id="t33" class="right">Cell 9</td>
+        </tr>
+    </table>
+
+    <!-- Table 2 -->
+    <table id="table-2" class="middle">
+        <tr>
+            <td id="t21" colspan="6">This is a single cell spanning six columns.</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+            <td>Row 2, Cell 3</td>
+            <td>Row 2, Cell 4</td>
+            <td>Row 2, Cell 5</td>
+            <td>Row 2, Cell 6</td>
+        </tr>
+        <tr>
+            <td>Row 3, Cell 1</td>
+            <td>Row 3, Cell 2</td>
+            <td>Row 3, Cell 3</td>
+            <td>Row 3, Cell 4</td>
+            <td>Row 3, Cell 5</td>
+            <td>Row 3, Cell 6</td>
+        </tr>
+        <tr>
+            <td>Row 4, Cell 1</td>
+            <td>Row 4, Cell 2</td>
+            <td>Row 4, Cell 3</td>
+            <td>Row 4, Cell 4</td>
+            <td>Row 4, Cell 5</td>
+            <td>Row 4, Cell 6</td>
+        </tr>
+        <tr>
+            <td>Row 5, Cell 1</td>
+            <td>Row 5, Cell 2</td>
+            <td>Row 5, Cell 3</td>
+            <td>Row 5, Cell 4</td>
+            <td>Row 5, Cell 5</td>
+            <td>Row 5, Cell 6</td>
+        </tr>
+        <tr>
+            <td>Row 6, Cell 1</td>
+            <td>Row 6, Cell 2</td>
+            <td>Row 6, Cell 3</td>
+            <td>Row 6, Cell 4</td>
+            <td>Row 6, Cell 5</td>
+            <td>Row 6, Cell 6</td>
+        </tr>
+    </table>
+
+    <!-- Table 3 -->
+    <table id="table-3" class="middle">
+        <tr class="green">
+            <td id="t-image" colspan="3">Image Table</td>
+        </tr>
+        <tr>
+            <td colspan="3"><img src="https://via.placeholder.com/150" alt="Placeholder Image"></td>
+        </tr>
+        <tr class="blue">
+            <td colspan="3">Footer Row</td>
+        </tr>
+    </table>
 
 </body>
-
 </html>
