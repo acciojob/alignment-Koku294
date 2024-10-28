@@ -12,9 +12,12 @@
             border: 1px solid black;
             border-spacing: 1px;
             padding: 1px;
-            margin: 20px auto; /* Center the table */
-            width: 80%; /* Make the table take up 80% of the width */
+        
         }
+		td {
+    border: 1px solid black;
+    padding: 1px;
+}
         .middle {
             width: 100%; /* Table with class "middle" */
         }
@@ -46,7 +49,7 @@
             <td id="t13" class="right">Cell 3</td>
         </tr>
         <tr>
-            <td id="t21">Cell 4</td>
+            <td id="t021">Cell 4</td>
             <td id="t22" class="center">Cell 5</td>
             <td id="t23" class="right">Cell 6</td>
         </tr>
@@ -107,11 +110,11 @@
     <!-- Table 3 -->
     <table id="table-3" class="middle">
         <tr class="green">
-            <td id="t-image" colspan="3">Image Table</td>
+            <td colspan="3">Image Table</td>
         </tr>
         <tr>
             <td colspan="3">
-                <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Sample Image">
+                <img id="t-image" src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Sample Image">
             </td>
         </tr>
         <tr class="blue">
